@@ -2,16 +2,14 @@
 <html>
 <head>
 <meta charset="utf-8">
-
 <script>
 var path = window.location.pathname;
-var page = path.replace("/", "");
+var page = path.substring(path.lastIndexOf("/") + 1);
 
-if(page !== ""){
-window.location.replace("/" + page + ".html");
+if (page && !page.includes(".")) {
+  window.location.replace(page + ".html");
 }
 </script>
-
 </head>
 <body></body>
 </html>
