@@ -355,9 +355,7 @@ z-index:5000;
 padding:0;
 transition:left 0.35s ease;
 overflow-y:auto;
-overflow-x:hidden;
 -webkit-overflow-scrolling:touch;
-padding-bottom:40px;
 }
 
 .mobile-menu.active{
@@ -408,8 +406,7 @@ text-transform:uppercase;
 /* MOBILE MENU CONTENT */
 
 .mobile-menu-content{
-padding:0 24px 80px;
-min-height:calc(100dvh - 80px);
+padding:0 24px 120px;
 }
 
 /* MOBILE MENU GROUP */
